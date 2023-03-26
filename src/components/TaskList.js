@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { updateTaskState } from "../lib/store";
+import { updateTaskState } from "../store";
 import Task from "./Task";
 
 const TaskList = () => {
