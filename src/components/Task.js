@@ -13,7 +13,14 @@ const Task = ({ task: { id, title, state }, onArchiveTask, onPinTask }) => {
 			</label>
 
 			<label htmlFor="title" aria-label={title} className="title">
-				<input type="text" value={title} name="title" readOnly={true} placeholder="Input title" />
+				<input
+					type="text"
+					value={title}
+					name="title"
+					readOnly={true}
+					placeholder="Input title"
+					style={{ background: "teal" }}
+				/>
 			</label>
 
 			{state !== "TASK_ARCHIVED" && (
