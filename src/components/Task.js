@@ -19,7 +19,7 @@ const Task = ({ task: { id, title, state }, onArchiveTask, onPinTask }) => {
 					name="title"
 					readOnly={true}
 					placeholder="Input title"
-					style={{ background: "teal" }}
+					style={{ textOverflow: "ellipsis" }}
 				/>
 			</label>
 
